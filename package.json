@@ -1,7 +1,7 @@
 {
-  "name": "text-bot",
+  "name": "Watson-Sales",
   "version": "0.1.2",
-  "description": "Weather bot that uses the IBM Watson Conversation service, AlchemyLanguage, and the Weather Channel API.",
+  "description": "Chatbot middleware",
   "main": "server.js",
   "scripts": {
     "dev": "gulp",
@@ -66,7 +66,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/watson-developer-cloud/text-bot.git"
+    "url": "https://github.com/benjamincjacob/Watson-ROME"
   },
   "engines": {
     "node": ">= 4.x",
@@ -75,24 +75,5 @@
   "pre-commit": [
     "lint",
     "validate"
-  ],
-  "contributors": [
-    {
-      "name": "Steven Oh",
-      "email": "ohs@us.ibm.com"
-    },
-    {
-      "name": "Andrew Ayres",
-      "email": "afayres@us.ibm.com"
-    },
-    {
-      "name": "Eva Xiaohui Luo",
-      "email": "evaluo_xhl@us.ibm.com"
-    },
-    {
-      "name": "German Attanasio Ruiz",
-      "email": "germanatt@us.ibm.com"
-    }
-  ],
-  "license": "Apache-2.0"
+  ]
 }
