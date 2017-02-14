@@ -6,8 +6,11 @@
       "Org": "benjamin.c.jacob@us.ibm.com",
       "Space": "dev"
     },
-    "Name": "ATT-DEV",
-    "Instrumentation": {}
+    "Name": "Watson-Sales",
+    "Instrumentation": {
+      "host": "watson-sales",
+      "domain": "mybluemix.net"
+    }
   },
   "Path": "manifest.yml",
   "Type": "Cloud Foundry"
